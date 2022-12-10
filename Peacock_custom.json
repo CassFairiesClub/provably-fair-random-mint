@@ -1,0 +1,61 @@
+{
+  "format": "CHIP-0007",
+  "name": "Peacock #NFT_NUMBER",
+  "description": "Cass Peacocks v1",
+  "series_number": NFT_NUMBER,
+  "series_total": 1000,
+  "minting_tool": "Cass@SquadSoftLabs",
+  "sensitive_content": false,
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Custom"
+    },
+    {
+      "trait_type": "Tx_hash_id",
+      "value": "TX_ID_HASH"
+    },
+    {
+      "trait_type": "Seed",
+      "value": "SEED_4"
+    },
+    {
+      "trait_type": "Digits index",
+      "value": "INDEX"
+    },
+    {
+      "trait_type": "Number of seeds rejected (seed > 9175)",
+      "value": "ITERATIONS"
+    },
+    {
+      "trait_type": "Seed modulo 1530",
+      "value": "SEED_SR"
+    }
+  ],
+  "collection": {
+    "name": "Cass Peacocks v1",
+    "id": "bf29d069-2927-4b2d-bdcc-c790addc3e5d",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "Cass Peacocks Banners : Provably Random Mint Proof of Concept, based on transaction hash id, send 0.1 xch to this address xch16jtyrtdz7gvtdkqakjpmf7pzqevtu6duduh30dn8xxa00jl409usg5gp6n to mint your own Peacock Banner. Limited to 1000 mints. The fisrt 30 characters from the tx_hash_id determines the 5 colors used, If the last character from tx_hash_id is equal to F, then it will mint a custom Peacock Banner. The seed/random number used for the custom ones is based on the first 4 digits of tx_hash_id modulo 1530 and sample rejected"
+      },
+      {
+        "type": "twitter",
+        "value": "@CassFairiesClub"
+      },
+      {
+        "type": "website",
+        "value": "https://www.cassandre-fairies-club.com/"
+      },
+      {
+        "type": "icon",
+        "value": "https://bafkreibdytwmryydp4tbl46wleek5iq25beonjtjcoalrzbjtpkrlu2wkq.ipfs.nftstorage.link/"
+      },
+      {
+        "type": "banner",
+        "value": "https://bafybeicdc4mikfsnivs47npsf5sqyzk5e6aw5m6f4a5m2ffbnxilplduda.ipfs.nftstorage.link/"
+      }
+    ]
+  }
+}
